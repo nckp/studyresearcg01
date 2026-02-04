@@ -1,0 +1,22 @@
+[project]
+name = "goom"
+version = "0.1.0"
+description = "Playground for experimenting with custom JAX primitives"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jax>=0.4.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
