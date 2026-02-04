@@ -14,4 +14,4 @@ Add implementation of goom_ssm_rnn.
 There is also an older (archived) implementation at ```https://github.com/glassroom/generalized_orders_of_magnitude```, it may or may not contain some useful/extra information.
 
 ## goom_jax-main
-Add implementation of goom_jax-main. Perhaps useful as reference.
+Add implementation of goom_jax-main. Perhaps useful as reference..
